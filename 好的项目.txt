@@ -1,3 +1,11 @@
-һ��������д�� ��Դ �ֲ�ʽ���ȣ�
-������ �г���û�к��õķֲ�ʽ�������廯�������
+一、
+一个阿里人写的 开源 分布式调度，
+初心是 市场上没有好用的分布式调度整体化解决方案
 https://github.com/NickleHuang/Nickle-Scheduler
+
+二、
+一个前后端分离 代码生成
+
+https://www.oschina.net/news/106828/jeecg-boot-2-0-0-released
+
+这里面也有代码生成器  是运行一个界面
