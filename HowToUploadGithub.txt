@@ -10,3 +10,26 @@
 	3. 使用下面的命令  git add 。 切记带点
 	                   git  commit -m '提交信息'
 					   git push -u origin master
+
+
+Git解决本地修改后冲突了无法从远端pull的方法
+
+1、git status
+
+先看下自己修改的文件是哪些；
+
+2、git stash
+
+用这个命令先把代码缓存起来；
+
+3、git pull
+
+这时再用pull命令把远端的代码拉下来；
+
+4、git stash pop
+
+远端代码拉回来后再用这个命令把放到缓存中的代码强行merge回来；
+
+5、git status
+
+再看下拉回来后是否有冲突文件，如果没有冲突文件编译后提交即可，如果有冲突文件解决验证后再编译重提提交即可；
